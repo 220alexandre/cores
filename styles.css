@@ -1,0 +1,60 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3f5b6e;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Estilos para os inputs de cores */
+.color-input {
+  width: calc(50% - 5px); /* Dividir o espaço horizontalmente com 5px de margem entre os inputs */
+  margin-bottom: 20px;
+}
+
+/* Estilos para a div de visualização da cor misturada */
+#mixed-color-preview {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#mixed-color-name {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* Estilos para os botões */
+.input-color-button {
+  width: calc(50% - 5px); /* Dividir o espaço horizontalmente com 5px de margem entre os botões */
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.input-color-button:hover {
+  background-color: #0056b3;
+}
